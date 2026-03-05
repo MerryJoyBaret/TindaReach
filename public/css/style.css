@@ -1,0 +1,17 @@
+/* Simple project stylesheet */
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:#f6f8fa;
+  color:#222;
+  margin:0;
+  padding:0;
+}
+.container{max-width:720px;margin:40px auto;padding:20px;background:#fff;border:1px solid #e6e9ef;border-radius:6px}
+h2{margin-top:0;color:#111}
+label{font-weight:600}
+input[type="text"],input[type="email"],input[type="password"]{width:100%;padding:8px;margin:6px 0 12px;border:1px solid #ccd;box-sizing:border-box;border-radius:4px}
+button{background:#2563eb;color:#fff;border:none;padding:10px 14px;border-radius:5px;cursor:pointer}
+button:hover{background:#1e40af}
+a{color:#2563eb}
+.error{color:#b91c1c}
+.success{color:#166534}
