@@ -1,0 +1,122 @@
+/* Custom Bootstrap overrides for TindaReach */
+
+/* Brand panel gradient background */
+.brand-panel {
+    background: linear-gradient(155deg, #e67e22 0%, #c87a2e 42%, #1f6f5e 100%) !important;
+}
+
+/* Hero section gradient */
+.bg-gradient {
+    background: linear-gradient(135deg, #e67e22 0%, #1f6f5e 100%) !important;
+}
+
+/* Custom button hover states */
+.btn-primary {
+    background-color: #e67e22 !important;
+    border-color: #e67e22 !important;
+}
+
+.btn-primary:hover {
+    background-color: #cf6d17 !important;
+    border-color: #cf6d17 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(230, 126, 34, 0.3);
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(25, 135, 84, 0.3);
+}
+
+/* Card hover effects */
+.hover-lift {
+    transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Icon box styling */
+.icon-box {
+    transition: all 0.3s ease;
+}
+
+.icon-box:hover {
+    transform: scale(1.05);
+}
+
+/* Feature box animations */
+.feature-box {
+    transition: all 0.3s ease;
+    padding: 2rem 1rem;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box i {
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover i {
+    transform: scale(1.1);
+}
+
+/* Navbar styling */
+.navbar-brand {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+/* Form validation styling */
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+
+.form-control.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991.98px) {
+    .brand-panel {
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container-fluid {
+        padding: 1rem;
+    }
+    
+    .form-panel {
+        padding: 1.5rem !important;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+    
+    .icon-box {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .icon-box i {
+        font-size: 1.5rem !important;
+    }
+}

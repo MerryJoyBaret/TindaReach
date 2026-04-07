@@ -1,5 +1,5 @@
 -- SQL script to initialize the `midterm` database for the project
-CREATE DATABASE IF NOT EXISTS midterm CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE IF NOT EXISTS tindareach CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE midterm;
 
 CREATE TABLE IF NOT EXISTS users (
