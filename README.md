@@ -165,7 +165,7 @@ Ensure the web root points to the project directory and configure URL rewriting 
 ## File Structure
 
 ```
-CC106_MIDTERM/
+TINDAREACH_CURRENT/
 ├── app/
 │   ├── controllers/
 │   │   └── AuthController.php     # Main authentication logic
